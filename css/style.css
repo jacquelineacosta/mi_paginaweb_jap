@@ -1,0 +1,113 @@
+body {
+    background-color: white;
+
+}
+
+a {
+    font-size: small;
+    color:rgb(29, 42, 53)
+}
+
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1#titulo {
+ text-align: center;
+ background-color: black;
+ color: beige;
+}
+
+#mi_nombre p {
+    background-color: rgb(146, 235, 235);
+    text-size-adjust: 16;
+    text-align: center;
+}
+
+#titulo {
+    text-align: center ;
+    color: black; 
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+.titulo2 {
+    text-align: left;
+    text-decoration: solid; color:blueviolet
+}
+
+#img1{
+    position: relative;
+    height: 10%;
+    width: 10%;
+ 
+
+}
+
+#img2 {
+    display: flex;
+    position: relative;
+    height: 20%;
+    width: 20%;
+}
+
+img.icon {
+    display: flex;
+    width: 15px;
+    padding-top: 10px;
+}
+
+div p {
+    text-align: center;
+}
+
+div#areas {
+   border-radius: 10px;
+   background-color:rgb(146, 235, 235);
+   font-style: oblique;
+   padding: 3%;
+}
+
+div#areas ul {
+    text-align: left;
+}
+
+#footerimg {
+width: 200px;
+}
+
+header {
+    margin: 20px;
+    text-align: center;
+    padding: 5px;
+}
+nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 100px; /* Espacio interno alrededor del texto del enlace */
+    display: inline-block; /* Asegura que el padding tenga efecto */
+    margin: 0 10px; /* Espacio entre los enlaces */
+}
+
+nav a:hover {
+    background-color: #ddd; /* Cambia el fondo al pasar el ratón sobre el enlace */
+}
+
+#nav_img {
+    display: inline;
+    position: absolute;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+
+@media(max-width:320) {
+    
+}

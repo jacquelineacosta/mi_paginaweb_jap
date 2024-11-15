@@ -1,5 +1,3 @@
-function mostrarMensaje() {
-  alert(`¡Bienvenid@ a mi sitio Web!`);
-}
+alert(`¡Bienvenid@ a mi sitio Web!`);
 
-console.log(mostrarMensaje());
+

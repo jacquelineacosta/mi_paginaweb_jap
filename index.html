@@ -4,65 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mi portfolio web</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat:500|Droid+Sans">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <script src='js/java.js'>  </script>
+    <script src='js/java.js'></script>
 </head>
 <body>
-    <header> 
-        <nav>
-            <a href="#home">Inicio</a>
-            <a href="#sobreMi">Sobre mi</a>
-            <a href="#services">Servicios</a>
-            <a href="#contact">Contacto</a>
-            <img id="nav_img" src="pictures/img_footer.png">
-        </nav>
-     </header>
-    
-     <div id="mi_nombre">
-       <h1 id="titulo">Jacqueline Acosta</h1>
-       <p>Aquí encontrarás informacion sobre mí, y mi trayectoria en el curso de DESARROLLO WEB de Jovenes a Programar</p>
-     </div>
 
-     <hr>
-
-     <div>
+     <div class="descripcion col-md-12">
+      <h1 Id="miNombre" class="display-3 fw-bold">Jacqueline Acosta</h1>
+      <h3 class="fw-normal text-muted mb-3">Aquí encontrarás informacion sobre mí, y mi trayectoria en el curso de DESARROLLO WEB de Jovenes a Programar.</h3>
+        </a>
+      </div>
+          
+<section class="p-3 text-bg-light">
+    <div class="container description">
+      <div class="row">
+      <div class="col-md-9">
         <p>Vi el anuncio en redes sociales e inmediatamente busqué más información en su página oficial
-        <a href= https://www.bing.com/ck/a?!&&p=aba600fba780438fJmltdHM9MTcyMjY0MzIwMCZpZ3VpZD0zY2NlN2Q0Mi02YmZkLTZmNmQtMjljNi02OTA4NmE1ODZlNDImaW5zaWQ9NTE5Mg&ptn=3&ver=2&hsh=3&fclid=3cce7d42-6bfd-6f6d-29c6-69086a586e42&psq=j%c3%b3venes+a+programar&u=a1aHR0cHM6Ly9qb3ZlbmVzYXByb2dyYW1hci5lZHUudXkv&ntb=1> (Jovenes a Programar)</a>
+        <a class="link-light" :hover href= https://www.bing.com/ck/a?!&&p=aba600fba780438fJmltdHM9MTcyMjY0MzIwMCZpZ3VpZD0zY2NlN2Q0Mi02YmZkLTZmNmQtMjljNi02OTA4NmE1ODZlNDImaW5zaWQ9NTE5Mg&ptn=3&ver=2&hsh=3&fclid=3cce7d42-6bfd-6f6d-29c6-69086a586e42&psq=j%c3%b3venes+a+programar&u=a1aHR0cHM6Ly9qb3ZlbmVzYXByb2dyYW1hci5lZHUudXkv&ntb=1> (Jovenes a Programar)</a>
          .<br>
          Me llamó la atención aunque no fuera un tema que me interese mucho ya que estoy más inclinada al arte. 
          Pero se me ocurrió que sería enriquecedor para mí aprender a programar y conectar el desarrollo web con mi formación en Diseño de Comunicación Visual.</p>
-     </div>
-      
-     <section>
-        <div class = "img1"><img id= "img1" src="pictures/img1.jpg"></div>
-        <div class = "img1"><img id= "img2" src="pictures/img1.jpg"></div>
-     </section>
-     <hr>
-
-    <h2 class="titulo2">Áreas trabajadas</h2>
-    <div id="areas" style="text-align: left;">
+         </div>
         
-        <p class="areasdesc">Cada área fue trabajada y fueron de gran importancia durante primera fase, se desarrollan con mayor profundidad en esta segunda fase.</p>
-        <ul>
-        <li>Habilidades Técnicas</li>
-        <li>Competencias Transversales</li>
-        <li>Inglés</li>
-        </ul> 
+      </div>
+   </div>
+</section>
 
-    <section>
-    <div class="container">
-         <div class="item-1">1</div>
-         <div class="item-2" >2</div>
-         <div class="item-3" >3</div>
-         <div class="item-4" >4</div>
-         <div class="item-5" >5</div>
-         <div class="item-6" >6</div>
-         <div class="item-7" >7</div>
-     </div></section>
+   <div class="seccion_imagen col-md-12">
+    <figure class="figure">
+          <img id= "img1" src="pictures/img1.jpg">
+           </figure>
+    </div>
+
+<hr>
+   
+
+  <div class="container my-5">
+    <!-- Fila de opciones -->
+     <h2 style="text-align: center;">Áreas trabajadas</h2> 
+    <div class="d-flex justify-content-center">
+        
+         <div class="option-item">
+        <img src="pictures/branko-stancevic-GI1hwOGqGtE-unsplash.jpg" alt="Opción 1" class="circle-img">
+        <p>Desarrollo Web</p>
+      </div>
+      <div class="option-item">
+        <img src="pictures/ctt.jpg" alt="Opción 2" class="circle-img">
+        <p>Competencias <br> Transversales</p>
+      </div>
+      <div class="option-item">
+        <img src="pictures/ingless.jpg" alt="Opción 3" class="circle-img">
+        <p>Inglés</p>
+      </div>
+    </div>
+
     <hr>
+    <h2 style="text-align: center;">Habilidades técnicas obtenidas</h2>
+    <div>
+      <p style="font: 1em Josefine+Sans; text-align: center;">HTML, CSS , BOOTSTRAP, JAVASCRIPT</p>
+
+    </div>
+  </div>
+
+    
 
     <footer>
-        <p><span><img class="icon" src="pictures/icon_user.png"></span>  contact: acostajime3@gmail.com </p>
+        <p><img id="icon" src="pictures/icon_user.png">contact: acostajime3@gmail.com </p>
     </footer>
+    <script src="js/java.js"></script>  
+  </body>
 </body>
 </html>

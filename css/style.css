@@ -1,0 +1,94 @@
+body {
+  font-family: 'Montserrat', 'Josefin Sans', serif;
+  font-size: 16px;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#miNombre {
+    font-family:'Josefin Sans', sans-serif;
+    margin-top: 50px;
+    padding: 30px 20px 20px;
+}
+
+.descripcion {
+        font-family: 'Montserrat';
+        font-size: 15px;
+        text-align: center;
+}
+
+.description .col-md-9 {
+    font-family: 'Montserrat';
+    background-color: #2ae7ae;
+    padding-top: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+    margin: 10%;
+}
+
+.col-md-3 {
+    font-family: 'DM-Mono', serif;
+    background-color: blueviolet;
+}
+
+.seccion_imagen {
+    height: 700px;
+    background: center;
+    background-image: url(../pictures/fondo1.png);
+    background-size: cover;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.descripcion h3 {
+text-align: center;
+}
+
+#img1 {
+    height: 300px;
+}
+
+img#icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 2px;
+    width: 25px;
+}
+
+footer {
+    justify-content: flex-start;
+    align-content: center;
+    height: 60px;
+    background-color: black;
+}
+
+  /* Estilo para hacer las imágenes circulares */
+  .circle-img {
+    width: 150px; /* Tamaño de la imagen */
+    height: 150px; /* Tamaño de la imagen */
+    object-fit: cover; /* Asegura que la imagen mantenga proporciones */
+    border-radius: 50%; /* Hace la imagen circular */
+  }
+
+  /* Espaciado entre las opciones */
+  .option-item {
+    text-align: center;
+    margin: 50px;
+  }
+
+  /* Texto debajo de las imágenes */
+  .option-item p {
+    margin-top: 8px;
+    font-size: 14px;
+  }
